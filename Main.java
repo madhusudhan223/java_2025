@@ -337,9 +337,15 @@ public class Main {
 
 // oops --> object oriented programming system
 
-//encapsulation
+//encapsulation ---> bundling the data and methods(which operates on data) into a single unit
+//abstraction  ---> reduce complexity by hiding unnecessary details
+// coupling
+
+// a --> b ---> c -- coupled each other.
+
+//
+
 //polymorphism
-//abstraction
 //inheritance
 
 // class --> object

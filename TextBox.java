@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class TextBox {
+public class TextBox {
+     String userInput = "";
+
+     public void setText( String text){
+         this.userInput = text;
+     }
+     public void clear(){
+         this.userInput = "";
+     }
+
 }
