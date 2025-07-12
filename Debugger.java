@@ -1,15 +1,25 @@
 public class Debugger {
     public static void main(String [] args){
 
+
         var employee = new Employee(50000, 500);
+        int salary = employee.calculateSalary(4);
+        System.out.println(Employee.noOfEmployees);
+//        System.out.println(Employee.getNoOfEmployees());
+
+
+
+
+//        employee.calculateSalary(4) // instance member
+//        employee.test ; // instance
 //
 //        employee.setBaseSalary(50000);
 //        employee.setHourlyRate(500);
-        int salary = employee.calculateSalary(4); // math calculation
-        int employeSalary2 = employee.calculateSalary(0); // it should not perform calculation and should return base salary
+        // math calculation
+//        int employeSalary2 = employee.calculateSalary(0); // it should not perform calculation and should return base salary
 //        int s
 
-        System.out.println(employeSalary2);
+//        System.out.println(employeSalary2);
 
         // constructor overloading
 

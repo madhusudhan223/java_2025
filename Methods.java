@@ -22,6 +22,7 @@ public class Methods {
         var employee1 = new Employee(50000, 500);
         int salary   = employee1.calculateSalary(4);
         System.out.println(salary);
+        System.out.println(getFullName("raj", "kumar"));
 //        System.out.println(employee1Salary);
 //
 //        greetUser("raju");

@@ -12,10 +12,114 @@ public class Main {
     // class name shoud have pascal case
     public static void main(String[] args) {
 
-         int number = 20;
-         String name = "Heloo";
+      var taxReport = new TaxReport();
+      taxReport.showTax();
 
-         char letter = 'a';
+//        var product = new Product(true);
+//        TextBox textBox = new TextBox();
+//        System.out.println(textBox.toString());
+//        System.out.println(textBox);
+
+//        logText(textBox);
+
+//       var product = new Product();
+
+//
+//        Product[] products = {new TextBox(), new Title()};
+//        for(var product:products){
+//           product.render("hello", 200);
+//        }
+
+      // Encapsulation, Abstraction, inheritance, polymorphism
+
+        // polymorphism -->it allows an object taking different forms;
+
+        // Abstract classes
+        // Abstract methods; will have only declaration but not implementation
+
+//        Abstract class -- it won't allow user to create an instance of it.
+
+
+        // deep inheritance --> always child will have one parent --> but it has nested inheritance
+        // multiple inheritance
+
+//        one child class extends multiple parent classes - because of ambiguity java won't support this
+//        class a class b
+
+//       product --> textbox, title
+
+//        interface
+
+//        class a --> interface _-> class b
+        // the more you apply abstractions -> will reduce coupling
+
+//    //we use interfaces to build loosely coupled applications
+
+
+//  interface is similar to class but it will only have method declaration, there will be no implementation;
+
+//        public void claculateTax();
+
+        // what should be done --> interfaces\
+        // how should be done ---> classes.
+
+//        interface are mostly used in
+
+        // data compression
+        // encryption
+        // sorting
+        // searching
+
+
+
+
+
+
+
+
+
+//
+
+//        decimal - 0-9
+//        hexa decimaal - 0-9 A-f
+//        A-10,B-11, c-12, d-13, e-14, f-15
+//        textBox1.toString()
+//        textBox1.set
+//        var textBox2 = new TextBox();
+//        var object = new Object();
+//        System.out.println(textBox.toString());
+//        System.out.println(textBox.isEnabled());
+//        System.out.println(textBox2.hashCode());
+//        object.
+//        0
+// poly morphism
+//  many forms --> it allows an object to take differnt forms
+
+        // upcasting -- casting an object to one of its super type --> implicit
+        // down casting --> casting an object to one of its sub type
+    };
+    public static void logText(Product product){
+        var text = (TextBox) product;
+//        System.out.println(text.se);
+
+    }
+};
+//        System.out.println(textBox.hashCode());
+
+        //hashCode: it takes the address of your memory and it will map with number
+
+//        textBox.setText("Hello world");
+//        System.out.println(textBox.getUserInput());
+//        textBox.
+//        textBox.user
+
+
+        // by default every class have one parent ---> Object class
+
+//         int number = 20;
+//         String name = "Heloo";
+//
+//         char letter = 'a';
 
 //        compile time errors, run time error
 
@@ -146,7 +250,7 @@ public class Main {
 //     fruits[1]= "Orange";
 //     fruits[2] = "Banana";
 
-     String[] fruits = {"Apple", "Orange", "Banana"};
+//     String[] fruits = {"Apple", "Orange", "Banana"};
 
 //        0,1,2
 //        3
@@ -156,16 +260,16 @@ public class Main {
 //        1
 
 
-
-        for(int i=fruits.length - 1; i>=0; i--) {
-            System.out.println("for loop " + fruits[i] +  i);
-        }
-
-
-
-     for(String fruit: fruits){
-         System.out.println("for each loop " + fruit);
-     }
+//
+//        for(int i=fruits.length - 1; i>=0; i--) {
+//            System.out.println("for loop " + fruits[i] +  i);
+//        }
+//
+//
+//
+//     for(String fruit: fruits){
+//         System.out.println("for each loop " + fruit);
+//     }
 
 //        for each loop work only for forward direction
 
@@ -331,9 +435,9 @@ public class Main {
 
 //        [adresses] ---> point1
 //        [adresses]   ---> point2
-    }
+//    }
 //    greetUser();
-};
+//};
 
 // oops --> object oriented programming system
 

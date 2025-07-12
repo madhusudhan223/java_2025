@@ -1,6 +1,7 @@
 public class Employee {
 
         private int baseSalary;
+       public  static int noOfEmployees = 500;
         private int hourlyRate;
 ////
 //    public  Employee(){
@@ -11,7 +12,12 @@ public class Employee {
             setHourlyRate(hourlyRate);
         }
 
+        public static int getNoOfEmployees(){
+            return noOfEmployees;
+        }
+
     public int calculateSalary(int extraHours ){
+            noOfEmployees++;
         return baseSalary +  (hourlyRate * extraHours);
     }
 //    public int calculateSalary(){
@@ -53,10 +59,22 @@ public class Employee {
 // reference --> null
 
 // you made changes in your local
-//git add - stages file
-// git commit -m ""
 
-//    git add . -- will add the files
+//git add - stages file
+
+//  git add . -- will add the files
 // git add file.java
 
-// git push --> git hub online
+// git commit -m ""
+
+
+// instance members -- is accessible only after creating an instance
+// static members or class members ---> to access static members we dont need to create an instance
+
+//members --> fields and methods
+
+
+// git push --> push your changes to git hub (online)
+
+// git -->
+// github, bitbucket
