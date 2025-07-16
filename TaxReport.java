@@ -1,11 +1,20 @@
 public class TaxReport {
 
-    private TaxCalculator calculator;
+    private TaxCalculator2025 calculator;
 
+    public TaxReport(TaxCalculator2025 calculator) {
+        this.calculator = calculator;
+    }
 
     public void showTax(){
-        var taxCalculator = new TaxCalculator(100_000);
-        var tax = taxCalculator.calculateTax(0.3F, 1000);
+        var tax = calculator.calculateTax(0.3F);
         System.out.println(tax);
     }
 }
+
+
+// dependency injection ---> we should not create instances of their dependencies
+
+// constructor injection
+// setters injection
+// method injection

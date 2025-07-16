@@ -12,8 +12,14 @@ public class Main {
     // class name shoud have pascal case
     public static void main(String[] args) {
 
-      var taxReport = new TaxReport();
-      taxReport.showTax();
+        var claculator = new TaxCalculator2025(10_000);
+//        var test = new TaxCalculator(claculator);
+        var taxReport = new TaxReport(claculator);
+
+//      constructor injection
+
+
+//      taxReport.showTax();
 
 //        var product = new Product(true);
 //        TextBox textBox = new TextBox();

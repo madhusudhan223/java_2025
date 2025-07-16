@@ -1,11 +1,17 @@
-public class TaxCalculator {
-    private double taxableIncome;
+public interface TaxCalculator {
+    public double calculateTax(float rate);
 
-    public TaxCalculator(double income){
-        this.taxableIncome = income;
-    }
-
-    public double calculateTax(float rate, int insurance){
-        return taxableIncome * rate;
-    }
 }
+
+
+// we dont implement method in our interface --> we
+
+// method signature --> method name + method parameters - should be same
+
+// interfaces --> you cannot instantiate
+
+// implements
+
+// Any class can implement multiple interfaces
+
+// var class = new ClassName()
