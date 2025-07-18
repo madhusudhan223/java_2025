@@ -1,15 +1,23 @@
 public class TaxReport {
 
-    private TaxCalculator2025 calculator;
 
-    public TaxReport(TaxCalculator2025 calculator) {
-        this.calculator = calculator;
-    }
+    private TaxCalculator calculator;
 
-    public void showTax(){
+//    public TaxReport(TaxCalculator calculator) {
+//        this.calculator = calculator;
+//    }
+
+    public void showTax(TaxCalculator calculator){
+//        TaxCalculator.minimum_tax = 10;
         var tax = calculator.calculateTax(0.3F);
         System.out.println(tax);
     }
+
+//    public void setCalculator(TaxCalculator calculator) {
+//        this.calculator = calculator;
+//    }
+
+
 }
 
 

@@ -12,9 +12,33 @@ public class Main {
     // class name shoud have pascal case
     public static void main(String[] args) {
 
-        var claculator = new TaxCalculator2025(10_000);
+
+
+        // new TaxCalculator()
+
+        var calculator = new TaxCalculator2025(100_000);
+//        var taxReport = new TaxReport();
+
+//        var can be anything  --> strings, num, [], instances
+
+        //
+
+//        var taxReport = new TaxReport(calculator); // constructor injection
+//        taxReport.setCalculator(calculator); // setter injection
+//        taxReport.showTax(calculator); // method injection
+
+        // interface segregation principle --> divide big interfaces into small ones, interface should focus on single capability
+
+
+//        var taxReport = new TaxReport(claculator);
+
+        // method
+
+        // constructor, setter and method
+//        claculator.calculateTax(0.5F);
+//        System.out.println(claculator.calculateTax(0.5F));
 //        var test = new TaxCalculator(claculator);
-        var taxReport = new TaxReport(claculator);
+
 
 //      constructor injection
 
