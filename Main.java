@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.io.IOException;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
@@ -16,7 +17,25 @@ public class Main {
 
         // new TaxCalculator()
 
-        var calculator = new TaxCalculator2025(100_000);
+//        var calculator = new TaxCalculator2025(100_000);
+
+        //
+
+        try {
+            ExceptionsDemo.show();
+        } catch (IOException e) {
+            System.out.println("input data is invalid");
+        }
+
+//        var price1 = new Price(2000);
+//        var price2 = new Price(1000);
+//        var item = new Item();
+//        System.out.println(item.itemPrice(price2));
+
+        // method parameter
+
+        // creating any method / calling any method --> method name and method parameters
+
 //        var taxReport = new TaxReport();
 
 //        var can be anything  --> strings, num, [], instances
