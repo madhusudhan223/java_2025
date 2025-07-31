@@ -10,10 +10,19 @@ public class ExceptionsDemo {
 
     var account = new Account();
     try{
-     account.deposit(-20);
-    }catch (IOException ex){
-        throw ex;
+        account.withDraw(200);
+    }catch (InSufficientBalanceException ex){
+        System.out.println(ex.getMessage());
+
     }
+
+    // chaining exceptions --->
+
+//    try{
+//     account.deposit(-20);
+//    }catch (IOException ex){
+//        throw ex;
+//    }
 
         // multiple catching
         // rethrowing an exception
