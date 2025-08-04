@@ -16,18 +16,33 @@ public class Account {
         System.out.println("Amount deposited");
     }
 
-    public void withDraw(float value) throws InSufficientBalanceException {
+    public void withDraw(float value) throws AccountsException {
         if(value > balance){
-            throw new InSufficientBalanceException("Insufficient balance found. ");
+//            var  funds = new InSufficientBalanceException("Insufficient balance found");
+//            var accounts = new AccountsException();
+//              accounts.initCause(funds);
+            throw new AccountsException(new InSufficientBalanceException("Insufficient balance found. "));
+//            throw new InSufficientBalanceException("Insufficient balance found. ");
         }
     }
 
+
+    // Exception (checked, unchecked, Errors)
+    // try/catch for handling exceptions
+    // throw keyword --> throw, throws, Throwable( parent class of Exception)
+    // custom exceptions
+    // chaining of exceptions
+
+
     // generic exception
+    // Accounts Exceptions -- generic
 
     // AccountException
-//    ---> InSufficientBalanceException, UnderMaintainanceException, ServerDownException
+//    ---> InSufficientBalanceException, UnderMaintainanceException, ServerDownException -- specific
 
     // chaining exceptions
+
+//    Generic exception
 
     // custom exceptions-->
 

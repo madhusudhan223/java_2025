@@ -13,6 +13,40 @@ public class Main {
     // class name shoud have pascal case
     public static void main(String[] args) {
 
+//        var list = new List(5);
+//        list.add(100); // 0
+//        list.add(200); //
+//        System.out.println(list.get(0));
+
+//        var list = new ObjectList(5);
+////        new
+//        list.add(1); // Integer.valueOf(1), Float, Boolean
+//        list.add("Raj");
+//        int number = (int)list.get(0);
+//        System.out.println(number);
+
+        var list = new GenericList<Integer>();
+        list.add(1); // to store this value it will create a instance of Integer, Boolean, Short, Float
+//        Boxing
+
+        list.get(0) ; // unboxing --> while accessing the element again it will convert reference data type into primitive
+
+//        to store the primitive it will create instance of their respective Wrapper class(Integer, Boolean, Short, Float) - Boxing
+
+        // Generics will allow us to identify the errors at the compilation time itself
+
+
+//        [1, 2, 3,]
+        // ["Raj", "Ram"]
+
+        // generics --> type safety -- during compilation time it will suggest errors
+
+
+                // for every primitives we have wrapper class
+
+        // Integer, Float, Boolean
+//        System.out.println(list.get(0));
+
 
 
         // new TaxCalculator()

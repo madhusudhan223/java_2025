@@ -11,8 +11,12 @@ public class ExceptionsDemo {
     var account = new Account();
     try{
         account.withDraw(200);
-    }catch (InSufficientBalanceException ex){
-        System.out.println(ex.getMessage());
+    }catch (AccountsException ex){
+        System.out.println("Something went wrong. pls try after sometime");
+//        var cause = ex.getCause();
+//        System.out.println(cause);
+//        ex.printStackTrace();
+//        System.out.println(ex.getMessage());
 
     }
 
@@ -41,12 +45,18 @@ public class ExceptionsDemo {
 
         //
 
+
+
+        // chaining - exception -->
+        //
 //        try(var reader = new FileReader("file.txt")){
 ////             reader = new FileReader("file.txt");
 ////            FileReader reader = new FileReader();
 //            var value = reader.read();
 ////            new SimpleDateFormat().parse("");
 //            System.out.println("File read");
+
+        // File not exception
 //        }
 //        catch (IOException ex){
 //            System.out.println("Unable to read the file ");
