@@ -13,6 +13,19 @@ public class Main {
     // class name shoud have pascal case
     public static void main(String[] args) {
 
+        var object1 = new User(10);
+        var object2 = new User(20);
+
+        if(object1.compareTo(object2) < 0 ) {
+            System.out.println("user1 is less than user 2");
+        }
+        if(object1.compareTo(object2) == 0 ) {
+            System.out.println("user1 is equal to user 2");
+        }
+        if(object1.compareTo(object2) > 0 ) {
+            System.out.println("user1 is greater than 2");
+        }
+
 //        var list = new List(5);
 //        list.add(100); // 0
 //        list.add(200); //
@@ -25,15 +38,29 @@ public class Main {
 //        int number = (int)list.get(0);
 //        System.out.println(number);
 
-        var list = new GenericList<Integer>();
-        list.add(1); // to store this value it will create a instance of Integer, Boolean, Short, Float
+//        javc filename
+//                java filename
+
+
+//        var list = new GenericList<Integer>();
+//        var names = new GenericList<String>();
+//        var decimal = new GenericList<Float>();
+//        var decimals = new GenericList<Double>();
+//        var userList = new GenericList<User>();
+//        new GenericList<Boolean>();
+//        list.add(1); // to store this value it will create a instance of Integer, Boolean, Short, Float
 //        Boxing
 
-        list.get(0) ; // unboxing --> while accessing the element again it will convert reference data type into primitive
+//        list.get(0) ; // unboxing --> while accessing the element again it will convert reference data type into primitive
 
 //        to store the primitive it will create instance of their respective Wrapper class(Integer, Boolean, Short, Float) - Boxing
 
         // Generics will allow us to identify the errors at the compilation time itself
+
+
+        // constraints (Restriction) -
+        // Type Erasure
+        //
 
 
 //        [1, 2, 3,]
