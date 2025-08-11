@@ -16,8 +16,21 @@ public class User implements Comparable<User>  {
 //       return 1;
         return points - other.points;
     }
+
+    @Override
+    public String toString() {
+        return "points" + points;
+    }
+
 }
 
+//
+
+// create a class which will have keys values
+
+// Key - value
+
+// backend which will send the data to frontend
 //
 
 // object1 < object2 (other object)  --> return -1

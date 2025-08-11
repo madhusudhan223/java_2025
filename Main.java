@@ -13,18 +13,72 @@ public class Main {
     // class name shoud have pascal case
     public static void main(String[] args) {
 
-        var object1 = new User(10);
-        var object2 = new User(20);
+        var list = new GenericList<String>();
 
-        if(object1.compareTo(object2) < 0 ) {
-            System.out.println("user1 is less than user 2");
+        list.add("Raj"); // 0 index
+        list.add("ram"); // 1 index
+        list.add("hello"); // 2 index
+
+        // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
+
+        // there is one solution --> but that is not the right way
+
+        for(var item: list){
+//            System.out.println((String)item);
+
         }
-        if(object1.compareTo(object2) == 0 ) {
-            System.out.println("user1 is equal to user 2");
-        }
-        if(object1.compareTo(object2) > 0 ) {
-            System.out.println("user1 is greater than 2");
-        }
+
+        // for each is syntatic sugar over the iterator object
+
+//
+
+//        var list = new GenericList<String>();
+//        var iterator = list.iterator();
+
+
+        // hasNext(), next()
+
+        // condition num < 0 ==> true or false
+
+        // public boolean hasNext(){};
+        // public <T> next();
+
+//        ["Raj", "Ram", "hello"]
+//                                |
+//        while(iterator.hasNext()){
+//        var current = iterator.next(); // "raj", "ram", "hello" // it gives current and moves cursor to next element
+//        System.out.println(current);
+//
+//        }
+
+
+        // while
+        //
+
+
+
+//        forEach : which can
+//        String[] names = {"raj", "ram", "heloo"};
+//
+//        for(String item:names){
+//            System.out.println(item);
+//        }
+
+//
+//        var object1 = new User(10);
+//        var object2 = new User(20);
+//
+//        if(object1.compareTo(object2) < 0 ) {
+//            System.out.println("object1 is less than object2");
+//        }
+//        if(object1.compareTo(object2) == 0 ) {
+//            System.out.println("object1 is equal to object2");
+//        }
+//        if(object1.compareTo(object2) > 0 ) {
+//            System.out.println("object1 is greater than object2");
+//        }
+//
+//        System.out.println(Utils.max(new User(50), new User(30)));
 
 //        var list = new List(5);
 //        list.add(100); // 0

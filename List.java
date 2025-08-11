@@ -19,6 +19,17 @@ public class List {
 // Object class - poor solution -- Strings, reference data primitives
 // Generics --> which allows to store array of elements with different data types
 
+// var names = new String[10];
+//names[0] = "raj"
+
+// String[] names = {"Raj", "hello"}
+
+
+//  ArrayList --> it used create an collection of elements with dynamic size
+
+// it internally uses array to store the data.
+
+//new ArrayList<> --> collections ---> group of objects
 
 // List -> it should allow user to store elements of any data type
 //var list = new List(4);
