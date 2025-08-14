@@ -13,6 +13,7 @@ public class GenericList <T> implements Iterable<T> {
 //        this.length = length;
 //
 //    }
+    // Iterable --> iterator() return type - Iterator --> hasNext(), next()
 
     // collection - capabalities --
     // we should be able to add elements to collection -
@@ -35,12 +36,39 @@ public class GenericList <T> implements Iterable<T> {
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+        return new ListIterator(this);
     }
 //
-//    private class ListIterator implements  Iterator<T>{
-//
-//    }
+    private class ListIterator implements  Iterator<T>{
+
+        private GenericList<T> list;
+        private int index;
+
+    // ListIterator - to iterate the elements --> list
+
+    public ListIterator(GenericList<T> list){
+        this.list = list;
+    }
+
+//    ["a", "b", "c"] --->
+
+//    list.add("a") - 0 ---> 1
+//    list.add("b")  1 ---> 2
+//    list.add("c") 2 ---> 3
+
+//    3 < 3
+
+    @Override
+    public boolean hasNext() {
+        return (index < list.count);
+    }
+
+
+    @Override
+    public T next() {
+        return list.items[index++];
+    }
+}
 
 //    public class List
 

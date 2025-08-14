@@ -1,10 +1,7 @@
 import java.awt.*;
 import java.io.IOException;
 import java.text.NumberFormat;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -16,17 +13,46 @@ public class Main {
         var list = new GenericList<String>();
 
         list.add("Raj"); // 0 index
-        list.add("ram"); // 1 index
-        list.add("hello"); // 2 index
+        list.add("Ram"); // 1 index
+        list.add("Hello"); // 2 index
 
         // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
 
         // there is one solution --> but that is not the right way
 
         for(var item: list){
-//            System.out.println((String)item);
-
+            System.out.println(item);
         }
+
+        Collection <String> items = new ArrayList<>();
+
+
+        items.add("raj - collection");
+        items.add("ram - collection");
+        items.add("hello - collection");
+
+//        foreach  -- Arrays and collections
+//        Collections.addAll(items, "a","b", "c");
+
+        //
+
+        new
+
+//        items.addAll(items, "ram - collection", "ram - collection")
+
+        for(var item: items){
+            System.out.println(item);
+        }
+
+
+
+
+
+        // Collec
+
+        // collections
+
+
 
         // for each is syntatic sugar over the iterator object
 
