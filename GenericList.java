@@ -58,6 +58,8 @@ public class GenericList <T> implements Iterable<T> {
 
 //    3 < 3
 
+//    foreach Arrays and collection
+
     @Override
     public boolean hasNext() {
         return (index < list.count);

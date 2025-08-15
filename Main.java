@@ -3,6 +3,8 @@ import java.io.IOException;
 import java.text.NumberFormat;
 import java.util.*;
 
+// iterable -->
+
 public class Main {
 
     // this method should be used when user Logins.
@@ -20,29 +22,93 @@ public class Main {
 
         // there is one solution --> but that is not the right way
 
-        for(var item: list){
-            System.out.println(item);
-        }
+
 
         Collection <String> items = new ArrayList<>();
 
 
-        items.add("raj - collection");
-        items.add("ram - collection");
-        items.add("hello - collection");
 
+
+        items.add("raj");
+        items.add("ram");
+        items.add("hello");
+        items.add("test");
+
+
+        Collection <String> otherCollection = new ArrayList<>();
+
+        otherCollection.addAll(items); // which adds the all elements
+
+        System.out.println(otherCollection);
+
+
+//        otherCollection.add("raj");
+//        otherCollection.add("ram");
+//        otherCollection.add("hello");
+//        otherCollection.add("test");
+
+//        int a = 10;
+//      int b= 10
+
+        // pass by value
+        // String []
+
+
+        // new Num(10)  --> adrees
+        // new num(10) -- adress
+
+//        pass by reference
+
+
+//        ==, <, > --> primitives
+
+//        System.out.println(items == otherCollection);
+
+//        System.out.println(items.equals(otherCollection));
+
+        //
+
+
+//        String [] convertedArray = items.toArray(new String[0]);
+
+//        System.out.println(convertedArray);
+
+
+
+
+////      items.remove("hello");
+//        items.clear();
+
+//        System.out.println(items.isEmpty());
+//        System.out.println(items.contains("hello"));
+
+//        "hello".length()
+
+//        System.out.println(items.size());
+
+
+
+        //LIst interface
+
+
+
+//        for(var item: items){
+//            System.out.println(item);
+//        }
+
+        //
 //        foreach  -- Arrays and collections
 //        Collections.addAll(items, "a","b", "c");
 
         //
 
-        new
+//        new
 
 //        items.addAll(items, "ram - collection", "ram - collection")
 
-        for(var item: items){
-            System.out.println(item);
-        }
+//        for(var item: items){
+//            System.out.println(item);
+//        }
 
 
 
