@@ -1,6 +1,4 @@
-import java.awt.*;
 import java.io.IOException;
-import java.text.NumberFormat;
 import java.util.*;
 
 // iterable -->
@@ -26,6 +24,11 @@ public class Main {
 
         Collection <String> items = new ArrayList<>();
 
+//        ListInterFaceDemo.showDemo();
+
+//        List<String> listItems = new ArrayList<>();
+//        listItems.add
+
 
 
 
@@ -34,12 +37,14 @@ public class Main {
         items.add("hello");
         items.add("test");
 
+//        [0, 1]
+
 
         Collection <String> otherCollection = new ArrayList<>();
 
         otherCollection.addAll(items); // which adds the all elements
 
-        System.out.println(otherCollection);
+//        System.out.println(otherCollection);
 
 
 //        otherCollection.add("raj");
