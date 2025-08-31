@@ -17,7 +17,8 @@ public class Main {
         list.add("Hello"); // 2 index
 
 //        QueueDemo.showDemo();
-        SetsDemo.showDemo();
+//        SetsDemo.showDemo();
+         SetMethodsDemo.showDemo();
 
         // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
 

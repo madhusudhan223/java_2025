@@ -33,7 +33,7 @@ public class ListInterFaceDemo {
 //        customers.add(new Customer("hello"));
 
 //        Collections.sort(customers);
-        Collections.sort(customers, new EmailComparator());
+         Collections.sort(customers, new EmailComparator());
 //        Collections.sort(customers, new NameComp());
 
 //        so
