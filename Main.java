@@ -19,6 +19,7 @@ public class Main {
 //        QueueDemo.showDemo();
 //        SetsDemo.showDemo();
          MapDemo.showDemo();
+         LinkedListDemo.showDemo();
 
         // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
 

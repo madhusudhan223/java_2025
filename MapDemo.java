@@ -8,11 +8,59 @@ public class MapDemo {
         Customer c1 = new Customer("Raj", "e1");
         Customer c2 = new Customer("Ram", "e2");
         Customer c3 = new Customer("Hello", "e3");
+
         Map<String, Customer> map = new HashMap<>();
 
         map.put(c1.getEmail(), c1);
         map.put(c2.getEmail(), c2);
         map.put(c3.getEmail(), c3);
+
+//
+        var defaultObj = new Customer("User not found", "");
+//        System.out.println(map.get("e4")); null
+        // it will return default obj if no data/key found.
+
+//        System.out.println(map.getOrDefault("e2", defaultObj));
+
+//        map.keySet() --> to access the keys
+//        map.values() --> to access the values
+//        map.entrySet() --> to access both keys and values
+//
+//        System.out.println(map.keySet());
+//        System.out.println(map.values());
+
+//        for(var key: map.keySet()){
+//            System.out.println(key);
+//        }
+//        for(var value: map.values()){
+//            System.out.println(value);
+//        }
+
+        for (var entry: map.entrySet()){
+//            System.out.println(entry.getKey());
+//            System.out.println(entry.getValue());
+            System.out.println(entry);
+        }
+
+
+        // key, values, keys & values
+
+//        Map<Integer, String> fruits = new HashMap<>();
+//
+//        fruits.put(4, "Apple");
+//        fruits.put(2, "Orange");
+//        fruits.put(1, "Banana");
+//
+//        System.out.println(fruits);
+
+//        System.out.println(fruits.get(2));
+
+//        for(var key: fruits.keySet()){
+//            System.out.println(fruits.get(key));
+//        }
+//
+
+
 
 //
 //        const obj = {
@@ -29,13 +77,13 @@ public class MapDemo {
 //        map.get("phone") ---> 964040
 
 
-        System.out.println(map.get("e3")); // null
+//        System.out.println(map.get("e3")); // null
 
 //        O(1) --> 10, 20, 1000
 
         // O(n) ---> 10, 1000
 
-        System.out.println(map);
+//        System.out.println(map);
 
 //        ser with email id e2
 
