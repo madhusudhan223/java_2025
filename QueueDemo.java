@@ -13,12 +13,15 @@ public class QueueDemo {
         queue.add("a");
         queue.add("b");
         queue.offer("d");
+//        queue.remo
 
 
 
         // d--> b --> a --> c
 
          queue.poll();
+//         queue.remo
+//        queue.
 
 //        var front = queue.peek();
 
