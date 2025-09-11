@@ -1,4 +1,5 @@
 import com.code.lambdaExpression.LambdaExpressionDemo;
+import com.code.lambdaExpression.LambdaMethodAndVariable;
 
 import java.io.IOException;
 import java.util.*;
@@ -23,7 +24,8 @@ public class Main {
 //         MapDemo.showDemo();
 //         LinkedListDemo.showDemo();
 //        PriorityQueueDemo.showDemo();
-        LambdaExpressionDemo.showDemo();
+//        LambdaExpressionDemo.showDemo();
+        LambdaMethodAndVariable.showDemo();
 
         // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
 

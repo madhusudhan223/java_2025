@@ -12,17 +12,17 @@ public class LambdaExpressionDemo {
 
         // lambda operator ->
         // lambda expression
-        greet((String message) -> {
-            System.out.println(message);
-        });
-
-        greet((message) -> {
-            System.out.println(message);
-        });
-
-        greet(message -> {
-            System.out.println(message);
-        });
+//        greet((String message) -> {
+//            System.out.println(message);
+//        });
+//
+//        greet((message) -> {
+//            System.out.println(message);
+//        });
+//
+//        greet(message -> {
+//            System.out.println(message);
+//        });
 
         greet(message -> System.out.println(message));
 
