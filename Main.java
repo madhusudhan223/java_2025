@@ -1,7 +1,4 @@
-import com.code.lambdaExpression.ConsumerDemo;
-import com.code.lambdaExpression.FunctionInterfacesDemo;
-import com.code.lambdaExpression.LambdaExpressionDemo;
-import com.code.lambdaExpression.LambdaMethodAndVariable;
+import com.code.lambdaExpression.*;
 
 import java.io.IOException;
 import java.util.*;
@@ -30,7 +27,9 @@ public class Main {
 //        LambdaMethodAndVariable.showDemo();
 //        FunctionInterfacesDemo.showDemo();
 
-        ConsumerDemo.showDemo();
+//        ConsumerDemo.showDemo();
+//        SupplierDemo.showDemo();
+        FunctionDemo.showDemo();
         // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
 
         // there is one solution --> but that is not the right way

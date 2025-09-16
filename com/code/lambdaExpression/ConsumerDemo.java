@@ -13,7 +13,7 @@ public class ConsumerDemo {
         Consumer<String> printUppercase  = item -> System.out.println(item.toUpperCase());
         Consumer<String> printLowercase  = item -> System.out.println(item.toLowerCase());
 
-        list.forEach(print.andThen(printUppercase).andThen(print));
+        list.forEach(print.andThen(printUppercase).andThen(printLowercase));
 
 //        consumer chaining
 
