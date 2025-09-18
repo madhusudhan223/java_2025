@@ -29,8 +29,9 @@ public class Main {
 
 //        ConsumerDemo.showDemo();
 //        SupplierDemo.showDemo();
-        PredicateDemo.showDemo();
+//        PredicateDemo.showDemo();
 //        FunctionDemo.showDemo();
+        BinaryAndUnaryDemo.showDemo();
         // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
 
         // there is one solution --> but that is not the right way
