@@ -39,6 +39,7 @@ public class StreamsDemo {
                                     filter(isPopular).
                                     count();
 
+//             movies.stream().
 
         System.out.println(filteredCount);
 

@@ -34,7 +34,10 @@ public class Main {
 //        BinaryAndUnaryDemo.showDemo();
 
 //        StreamsDemo.showDemo();
-        StreamsCreation.showDemo();
+//        StreamsCreation.showDemo();
+//        MapAndSliceDemo.showDemo();
+//        SlicingDemo.showDemo();
+        SortingStreams.showDemo();
 
         // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
 

@@ -7,7 +7,7 @@ public class StreamsCreation {
 
     public static void showDemo() {
 
-        // from collection
+        // from collection --> List, Set, Queue
         // from Arrays
         // from an arbitrary number of objects
         //  infinite/finite streams

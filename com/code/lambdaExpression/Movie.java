@@ -1,6 +1,6 @@
 package com.code.lambdaExpression;
 
-public class Movie {
+public class Movie{
 
     private  String title;
     private int likes;
