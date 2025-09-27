@@ -39,7 +39,8 @@ public class Main {
 //        SlicingDemo.showDemo();
 //        SortingStreams.showDemo();
 //        UniqueAndPeek.showDemo();
-        Reducers.showDemo();
+//        Reducers.showDemo();
+        ReduceDemo.showDemo();
 
         // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
 

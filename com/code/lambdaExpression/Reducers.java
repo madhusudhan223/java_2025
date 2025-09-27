@@ -52,6 +52,9 @@ public class Reducers {
 
 //        System.out.println(movies.stream().count());
 
+
+        //Reducers
+
         //count
 
         // anyMatch(Predicate
@@ -63,6 +66,8 @@ public class Reducers {
 
         // max (Comparator
         // min (Comparator
+
+        // reduce
 
 
     }
@@ -82,4 +87,5 @@ public class Reducers {
 //peek
 //takeWhile
 //dropWhile
+
 
