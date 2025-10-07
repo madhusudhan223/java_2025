@@ -3,12 +3,28 @@ package com.code.lambdaExpression;
 public class ThreadDemo {
     public static void showDemo() {
 
-        System.out.println(Thread.currentThread().getName());
+//        System.out.println(Thread.currentThread().getName());
 
-        for(var i=1; i <= 10 ; i ++ ){
             Thread thread = new Thread(new DownLoadFile());
             thread.start();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
+
+        thread.interrupt();
+//
+//        try {
+//            thread.join();
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
+
+        System.out.println("Scanning a downloaded file for virus");
+
+
 
 
 

@@ -45,7 +45,8 @@ public class Main {
 
 //        System.out.println(Thread.activeCount());
 //        System.out.println(Runtime.getRuntime().availableProcessors());
-        ThreadDemo.showDemo();
+//        ThreadDemo.showDemo();
+        ExecutorDemo.showDemo();
 
         // to make this generic list iterable without knowing any internal implementation - we have to use iterable interface
 
